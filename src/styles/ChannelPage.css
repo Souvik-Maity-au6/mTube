@@ -1,0 +1,15 @@
+.channel-page-container{
+    min-width: 100%;
+    min-height: calc(100vh - 76px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background-color: #00a4e4
+}
+
+
+.channel-card{
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}

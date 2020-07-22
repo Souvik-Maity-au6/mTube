@@ -1,0 +1,65 @@
+.container{
+  height: 530px;
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 170px;
+  left: 200px;
+  background-color: #007cc0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  border-radius: 5px;
+  padding: 50px;
+}
+
+select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+#fname{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    background-color: azure;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+  color: azure;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 850px;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}

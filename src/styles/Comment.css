@@ -1,0 +1,11 @@
+.top-comment > a:hover {
+    text-decoration: none;
+}
+
+.top-comment p > a:hover {
+    text-decoration: none;
+}
+
+.top-reply > a:hover {
+    text-decoration: none;
+}
