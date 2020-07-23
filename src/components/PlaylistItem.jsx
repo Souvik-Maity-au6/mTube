@@ -6,7 +6,7 @@ import { mapToPropsUser } from '../redux/mapStateToProps';
 const PlaylistItem = ({ playlist, userObj }) => {
     return (
         <>
-            <div className="card" style={{ width: "18rem", fontWeight: "bold", margin: "5px" }}>
+            <div className="card my-3 mx-3" style={{ width: "18rem", fontWeight: "bold", }}>
                 <img src={playlist.snippet.thumbnails.high.url} className="card-img-top"
                     onError={(e) => { e.target.onerror = null; e.target.src = "https://images.unsplash.com/photo-1595303526913-c7037797ebe7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1101&q=80"; }}
                     alt="video thumbnail" width="100%" height="200px" />

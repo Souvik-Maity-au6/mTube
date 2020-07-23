@@ -15,6 +15,7 @@ class CreatePlaylist extends Component {
 
     handleChange = (event) => {
         this.setState({ [event.target.name]: event.target.value });
+        console.log(event.target.value);
     };
 
     handleSubmitCreatePlaylist = (event) => {
@@ -31,6 +32,7 @@ class CreatePlaylist extends Component {
 
         this.props.createPlaylist(playlist);
         this.setState(initialState);
+        this.props.click();
     };
 
     render() {

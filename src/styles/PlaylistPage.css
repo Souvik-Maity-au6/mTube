@@ -2,15 +2,12 @@
     min-width: 100%;
     min-height: calc(100vh - 76px);
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
     font-weight: bold;
     flex-wrap: wrap;
 }
 
-/* .playlist-body{
-
-} */
 
 .playlist-footer{
     display: flex;
